@@ -1,0 +1,6 @@
+framework module Pods_ARKit_iOS_ARKit_iOSUITests {
+  umbrella header "Pods-ARKit_iOS-ARKit_iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EDB11AE2AB5E0DE00E6442C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB11AD2AB5E0DE00E6442C /* AppDelegate.swift */; };
+		3EDB11B02AB5E0DE00E6442C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB11AF2AB5E0DE00E6442C /* SceneDelegate.swift */; };
+		3EDB11B22AB5E0DE00E6442C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB11B12AB5E0DE00E6442C /* ViewController.swift */; };
+		3EDB11B52AB5E0DE00E6442C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB11B32AB5E0DE00E6442C /* Main.storyboard */; };
+		3EDB11B72AB5E0E000E6442C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB11B62AB5E0E000E6442C /* Assets.xcassets */; };
+		3EDB11BA2AB5E0E000E6442C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB11B82AB5E0E000E6442C /* LaunchScreen.storyboard */; };
+		3EDB11C52AB5E0E000E6442C /* AR_IKEATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB11C42AB5E0E000E6442C /* AR_IKEATests.swift */; };
+		3EDB11CF2AB5E0E000E6442C /* AR_IKEAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB11CE2AB5E0E000E6442C /* AR_IKEAUITests.swift */; };
+		3EDB11D12AB5E0E000E6442C /* AR_IKEAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB11D02AB5E0E000E6442C /* AR_IKEAUITestsLaunchTests.swift */; };
+		3EDB11DF2AB5E3D400E6442C /* ItemCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB11DD2AB5E3D400E6442C /* ItemCollectionCell.swift */; };
+		3EDB11E02AB5E3D400E6442C /* ItemCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB11DE2AB5E3D400E6442C /* ItemCollectionCell.xib */; };
+		3EDB11EA2AB5E87300E6442C /* vase.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB11E62AB5E87300E6442C /* vase.scn */; };
+		3EDB11EB2AB5E87300E6442C /* cup.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB11E72AB5E87300E6442C /* cup.scn */; };
+		3EDB11EC2AB5E87300E6442C /* boxing.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB11E82AB5E87300E6442C /* boxing.scn */; };
+		3EDB11ED2AB5E87300E6442C /* table.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB11E92AB5E87300E6442C /* table.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EDB11C12AB5E0E000E6442C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EDB11A22AB5E0DE00E6442C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EDB11A92AB5E0DE00E6442C;
+			remoteInfo = "AR-IKEA";
+		};
+		3EDB11CB2AB5E0E000E6442C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EDB11A22AB5E0DE00E6442C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EDB11A92AB5E0DE00E6442C;
+			remoteInfo = "AR-IKEA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EDB11AA2AB5E0DE00E6442C /* AR-IKEA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-IKEA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDB11AD2AB5E0DE00E6442C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EDB11AF2AB5E0DE00E6442C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3EDB11B12AB5E0DE00E6442C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EDB11B42AB5E0DE00E6442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EDB11B62AB5E0E000E6442C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDB11B92AB5E0E000E6442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EDB11BB2AB5E0E000E6442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDB11C02AB5E0E000E6442C /* AR-IKEATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-IKEATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDB11C42AB5E0E000E6442C /* AR_IKEATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_IKEATests.swift; sourceTree = "<group>"; };
+		3EDB11CA2AB5E0E000E6442C /* AR-IKEAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-IKEAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDB11CE2AB5E0E000E6442C /* AR_IKEAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_IKEAUITests.swift; sourceTree = "<group>"; };
+		3EDB11D02AB5E0E000E6442C /* AR_IKEAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_IKEAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EDB11DD2AB5E3D400E6442C /* ItemCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionCell.swift; sourceTree = "<group>"; };
+		3EDB11DE2AB5E3D400E6442C /* ItemCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionCell.xib; sourceTree = "<group>"; };
+		3EDB11E62AB5E87300E6442C /* vase.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = vase.scn; sourceTree = "<group>"; };
+		3EDB11E72AB5E87300E6442C /* cup.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cup.scn; sourceTree = "<group>"; };
+		3EDB11E82AB5E87300E6442C /* boxing.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = boxing.scn; sourceTree = "<group>"; };
+		3EDB11E92AB5E87300E6442C /* table.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = table.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EDB11A72AB5E0DE00E6442C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDB11BD2AB5E0E000E6442C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDB11C72AB5E0E000E6442C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EDB11A12AB5E0DE00E6442C = {
+			isa = PBXGroup;
+			children = (
+				3EDB11AC2AB5E0DE00E6442C /* AR-IKEA */,
+				3EDB11C32AB5E0E000E6442C /* AR-IKEATests */,
+				3EDB11CD2AB5E0E000E6442C /* AR-IKEAUITests */,
+				3EDB11AB2AB5E0DE00E6442C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EDB11AB2AB5E0DE00E6442C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB11AA2AB5E0DE00E6442C /* AR-IKEA.app */,
+				3EDB11C02AB5E0E000E6442C /* AR-IKEATests.xctest */,
+				3EDB11CA2AB5E0E000E6442C /* AR-IKEAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EDB11AC2AB5E0DE00E6442C /* AR-IKEA */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB11AD2AB5E0DE00E6442C /* AppDelegate.swift */,
+				3EDB11AF2AB5E0DE00E6442C /* SceneDelegate.swift */,
+				3EDB11B12AB5E0DE00E6442C /* ViewController.swift */,
+				3EDB11DD2AB5E3D400E6442C /* ItemCollectionCell.swift */,
+				3EDB11DE2AB5E3D400E6442C /* ItemCollectionCell.xib */,
+				3EDB11B32AB5E0DE00E6442C /* Main.storyboard */,
+				3EDB11E52AB5E87300E6442C /* Assets */,
+				3EDB11B62AB5E0E000E6442C /* Assets.xcassets */,
+				3EDB11B82AB5E0E000E6442C /* LaunchScreen.storyboard */,
+				3EDB11BB2AB5E0E000E6442C /* Info.plist */,
+			);
+			path = "AR-IKEA";
+			sourceTree = "<group>";
+		};
+		3EDB11C32AB5E0E000E6442C /* AR-IKEATests */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB11C42AB5E0E000E6442C /* AR_IKEATests.swift */,
+			);
+			path = "AR-IKEATests";
+			sourceTree = "<group>";
+		};
+		3EDB11CD2AB5E0E000E6442C /* AR-IKEAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB11CE2AB5E0E000E6442C /* AR_IKEAUITests.swift */,
+				3EDB11D02AB5E0E000E6442C /* AR_IKEAUITestsLaunchTests.swift */,
+			);
+			path = "AR-IKEAUITests";
+			sourceTree = "<group>";
+		};
+		3EDB11E52AB5E87300E6442C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB11E62AB5E87300E6442C /* vase.scn */,
+				3EDB11E72AB5E87300E6442C /* cup.scn */,
+				3EDB11E82AB5E87300E6442C /* boxing.scn */,
+				3EDB11E92AB5E87300E6442C /* table.scn */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EDB11A92AB5E0DE00E6442C /* AR-IKEA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDB11D42AB5E0E000E6442C /* Build configuration list for PBXNativeTarget "AR-IKEA" */;
+			buildPhases = (
+				3EDB11A62AB5E0DE00E6442C /* Sources */,
+				3EDB11A72AB5E0DE00E6442C /* Frameworks */,
+				3EDB11A82AB5E0DE00E6442C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR-IKEA";
+			productName = "AR-IKEA";
+			productReference = 3EDB11AA2AB5E0DE00E6442C /* AR-IKEA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EDB11BF2AB5E0E000E6442C /* AR-IKEATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDB11D72AB5E0E000E6442C /* Build configuration list for PBXNativeTarget "AR-IKEATests" */;
+			buildPhases = (
+				3EDB11BC2AB5E0E000E6442C /* Sources */,
+				3EDB11BD2AB5E0E000E6442C /* Frameworks */,
+				3EDB11BE2AB5E0E000E6442C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EDB11C22AB5E0E000E6442C /* PBXTargetDependency */,
+			);
+			name = "AR-IKEATests";
+			productName = "AR-IKEATests";
+			productReference = 3EDB11C02AB5E0E000E6442C /* AR-IKEATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EDB11C92AB5E0E000E6442C /* AR-IKEAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDB11DA2AB5E0E000E6442C /* Build configuration list for PBXNativeTarget "AR-IKEAUITests" */;
+			buildPhases = (
+				3EDB11C62AB5E0E000E6442C /* Sources */,
+				3EDB11C72AB5E0E000E6442C /* Frameworks */,
+				3EDB11C82AB5E0E000E6442C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EDB11CC2AB5E0E000E6442C /* PBXTargetDependency */,
+			);
+			name = "AR-IKEAUITests";
+			productName = "AR-IKEAUITests";
+			productReference = 3EDB11CA2AB5E0E000E6442C /* AR-IKEAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EDB11A22AB5E0DE00E6442C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3EDB11A92AB5E0DE00E6442C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3EDB11BF2AB5E0E000E6442C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3EDB11A92AB5E0DE00E6442C;
+					};
+					3EDB11C92AB5E0E000E6442C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3EDB11A92AB5E0DE00E6442C;
+					};
+				};
+			};
+			buildConfigurationList = 3EDB11A52AB5E0DE00E6442C /* Build configuration list for PBXProject "AR-IKEA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EDB11A12AB5E0DE00E6442C;
+			productRefGroup = 3EDB11AB2AB5E0DE00E6442C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EDB11A92AB5E0DE00E6442C /* AR-IKEA */,
+				3EDB11BF2AB5E0E000E6442C /* AR-IKEATests */,
+				3EDB11C92AB5E0E000E6442C /* AR-IKEAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EDB11A82AB5E0DE00E6442C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDB11EA2AB5E87300E6442C /* vase.scn in Resources */,
+				3EDB11BA2AB5E0E000E6442C /* LaunchScreen.storyboard in Resources */,
+				3EDB11B72AB5E0E000E6442C /* Assets.xcassets in Resources */,
+				3EDB11ED2AB5E87300E6442C /* table.scn in Resources */,
+				3EDB11EB2AB5E87300E6442C /* cup.scn in Resources */,
+				3EDB11E02AB5E3D400E6442C /* ItemCollectionCell.xib in Resources */,
+				3EDB11EC2AB5E87300E6442C /* boxing.scn in Resources */,
+				3EDB11B52AB5E0DE00E6442C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDB11BE2AB5E0E000E6442C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDB11C82AB5E0E000E6442C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EDB11A62AB5E0DE00E6442C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDB11B22AB5E0DE00E6442C /* ViewController.swift in Sources */,
+				3EDB11AE2AB5E0DE00E6442C /* AppDelegate.swift in Sources */,
+				3EDB11DF2AB5E3D400E6442C /* ItemCollectionCell.swift in Sources */,
+				3EDB11B02AB5E0DE00E6442C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDB11BC2AB5E0E000E6442C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDB11C52AB5E0E000E6442C /* AR_IKEATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDB11C62AB5E0E000E6442C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDB11CF2AB5E0E000E6442C /* AR_IKEAUITests.swift in Sources */,
+				3EDB11D12AB5E0E000E6442C /* AR_IKEAUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EDB11C22AB5E0E000E6442C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EDB11A92AB5E0DE00E6442C /* AR-IKEA */;
+			targetProxy = 3EDB11C12AB5E0E000E6442C /* PBXContainerItemProxy */;
+		};
+		3EDB11CC2AB5E0E000E6442C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EDB11A92AB5E0DE00E6442C /* AR-IKEA */;
+			targetProxy = 3EDB11CB2AB5E0E000E6442C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EDB11B32AB5E0DE00E6442C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDB11B42AB5E0DE00E6442C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EDB11B82AB5E0E000E6442C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDB11B92AB5E0E000E6442C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EDB11D22AB5E0E000E6442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EDB11D32AB5E0E000E6442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EDB11D52AB5E0E000E6442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ7856Z5Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AR-IKEA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.chotot.iosapp.AR-IKEA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EDB11D62AB5E0E000E6442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ7856Z5Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AR-IKEA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.chotot.iosapp.AR-IKEA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EDB11D82AB5E0E000E6442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ7856Z5Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.chotot.iosapp.AR-IKEATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-IKEA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AR-IKEA";
+			};
+			name = Debug;
+		};
+		3EDB11D92AB5E0E000E6442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ7856Z5Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.chotot.iosapp.AR-IKEATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-IKEA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AR-IKEA";
+			};
+			name = Release;
+		};
+		3EDB11DB2AB5E0E000E6442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ7856Z5Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.chotot.iosapp.AR-IKEAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR-IKEA";
+			};
+			name = Debug;
+		};
+		3EDB11DC2AB5E0E000E6442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJ7856Z5Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.chotot.iosapp.AR-IKEAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR-IKEA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EDB11A52AB5E0DE00E6442C /* Build configuration list for PBXProject "AR-IKEA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDB11D22AB5E0E000E6442C /* Debug */,
+				3EDB11D32AB5E0E000E6442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDB11D42AB5E0E000E6442C /* Build configuration list for PBXNativeTarget "AR-IKEA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDB11D52AB5E0E000E6442C /* Debug */,
+				3EDB11D62AB5E0E000E6442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDB11D72AB5E0E000E6442C /* Build configuration list for PBXNativeTarget "AR-IKEATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDB11D82AB5E0E000E6442C /* Debug */,
+				3EDB11D92AB5E0E000E6442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDB11DA2AB5E0E000E6442C /* Build configuration list for PBXNativeTarget "AR-IKEAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDB11DB2AB5E0E000E6442C /* Debug */,
+				3EDB11DC2AB5E0E000E6442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EDB11A22AB5E0DE00E6442C /* Project object */;
+}
